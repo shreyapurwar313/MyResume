@@ -1,0 +1,209 @@
+body {
+  background-color: #efedc6;
+}
+.about > img {
+  height: 200px;
+  width: 200px;
+  border-radius: 200px;
+  display: block;
+  margin: auto;
+}
+img {
+  height: 250px;
+  border: 3px solid black;
+  border-radius: 15px;
+  display: block;
+  margin: auto;
+}
+/* First Div */
+.container {
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ace6f2;
+  padding: 39px;
+}
+h1 {
+  font-size: 50px;
+  font-family: serif;
+}
+.background {
+  background-color: #efedc6;
+  padding: 12px;
+}
+.background > p {
+  text-align: center;
+  font-size: 30px;
+  font-family: sans-serif;
+  padding: 12px;
+}
+
+h2 {
+  font-size: 48px;
+  text-align: center;
+}
+ul {
+  list-style: none;
+  text-align: center;
+}
+/* Second Div */
+.education {
+  background-color: #ecfdf1;
+  padding: 29px;
+}
+li {
+  font-size: 25px;
+  font-family: sans-serif;
+}
+/* Third Div */
+.container1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #b4f8c8;
+  padding: 26px;
+}
+.skills > p {
+  font-size: 20px;
+  text-align: center;
+  font-family: sans-serif;
+  padding: 60px;
+}
+/* Fourth Div */
+.container2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #efedc6;
+  padding: 26px;
+}
+.projects > p {
+  font-size: 20px;
+  text-align: center;
+  font-family: sans-serif;
+  padding: 30px;
+}
+.container3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(210, 151, 151);
+  padding: 26px;
+}
+.details > p {
+  font-size: 20px;
+  text-align: center;
+  font-family: sans-serif;
+}
+h3 {
+  text-align: center;
+}
+.link {
+  color: black;
+  font-weight: bold;
+}
+/* For Mobile Devices */
+@media (min-width: 319px) and (max-width: 480px) {
+  .container {
+    padding: 15px;
+  }
+  .about > img {
+    height: 150px;
+    width: 150px;
+    border-radius: 200px;
+    margin-left: 16px;
+  }
+  img {
+    height: 130px;
+  }
+  h1 {
+    font-size: 20px;
+  }
+  .background > p {
+    font-size: 19px;
+  }
+  h2 {
+    font-size: 20px;
+  }
+  li {
+    font-size: 17px;
+  }
+  .skills > p {
+    font-size: 17px;
+    padding: 20px;
+  }
+  .projects > p {
+    font-size: 17px;
+    padding: 20px;
+  }
+  .details > p {
+    font-size: 17px;
+  }
+}
+/* For IPads and Tablets */
+@media (min-width: 481px) and (max-width: 1200px) {
+  .container {
+    padding: 15px;
+  }
+  .about > img {
+    margin-left: 25px;
+  }
+  img {
+    height: 130px;
+  }
+  h1 {
+    font-size: 26px;
+  }
+  .background > p {
+    font-size: 15px;
+  }
+  h2 {
+    font-size: 25px;
+  }
+  li {
+    font-size: 18px;
+  }
+
+  .skills > p {
+    font-size: 18px;
+    padding: 20px;
+  }
+  .projects > p {
+    font-size: 18px;
+    padding: 10px;
+  }
+  .details > p {
+    font-size: 18px;
+  }
+}
+/* For Laptops */
+@media (min-width: 1201px) and (max-width: 1600px) {
+  .container {
+    padding: 20px;
+  }
+  .about > img {
+    margin-left: 120px;
+  }
+  h1 {
+    font-size: 50px;
+  }
+  .background > p {
+    font-size: 29px;
+  }
+  h2 {
+    font-size: 35px;
+  }
+  li {
+    font-size: 29px;
+  }
+  .skills > p {
+    font-size: 29px;
+  }
+  .projects > p {
+    font-size: 29px;
+  }
+  .details > p {
+    font-size: 29px;
+  }
+}
